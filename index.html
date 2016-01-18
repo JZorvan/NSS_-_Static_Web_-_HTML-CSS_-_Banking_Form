@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Quickly apply for a loan from ZorBank today!">
+  <title>ZorBank</title>
+  <!--<link rel="stylesheet" type="text/css" href="Add stylesheet link here later"--> 
+</head>
+
+<body>
+  <h1>Zorbank Loan Application</h1>
+  <form action="send_form.php" method="post">
+<!--Name and Address Fields-->
+  <fieldset>
+    <!-- Your Information - Fieldset -->
+    <legend>Your Information</legend>
+      <!-- First Name - Text Field -->
+      <label for="first_name">First Name</label>
+      <input type="text" placeholder="John" name="first_name" size="20" maxlength="30">
+      <!-- Middle Initial - Text Field -->
+      <label for="middle-init">Middle Initial</label>
+      <input type="text" placeholder="A" name="middle_init" size="4" maxlength="3">
+      <!-- Last Name - Text Field -->
+      <label for="last_name">Last Name</label>
+      <input type="text" placeholder="Smith" name="last_name" size="20" maxlength="40">
+      <br>
+      <!-- Street Address - Text Field -->
+      <label for="street_address">Street Address</label>
+      <input type="text" placeholder="123 Main Street" name="street_address" size="40" maxlength="60">
+      <!-- Unit Number - Text Field -->
+      <label for="unit_num">Apt, Unit, etc</label>
+      <input type="text" placeholder="#1" name="unit_num" size="5" maxlength="15">
+      <br>
+      <!-- City - Text Field -->
+      <label for="city">City</label>
+      <input type="text" placeholder="City" name="city" size="20" maxlength="30">
+      <!-- State - Select Box -->
+      <label for="state">State</label>
+      <select name="state">
+        <option value="Blank">-----</option>
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+        <option value="DC">District Of Columbia</option>
+        <option value="FL">Florida</option>
+        <option value="GA">Georgia</option>
+        <option value="HI">Hawaii</option>
+        <option value="ID">Idaho</option>
+        <option value="IL">Illinois</option>
+        <option value="IN">Indiana</option>
+        <option value="IA">Iowa</option>
+        <option value="KS">Kansas</option>
+        <option value="KY">Kentucky</option>
+        <option value="LA">Louisiana</option>
+        <option value="ME">Maine</option>
+        <option value="MD">Maryland</option>
+        <option value="MA">Massachusetts</option>
+        <option value="MI">Michigan</option>
+        <option value="MN">Minnesota</option>
+        <option value="MS">Mississippi</option>
+        <option value="MO">Missouri</option>
+        <option value="MT">Montana</option>
+        <option value="NE">Nebraska</option>
+        <option value="NV">Nevada</option>
+        <option value="NH">New Hampshire</option>
+        <option value="NJ">New Jersey</option>
+        <option value="NM">New Mexico</option>
+        <option value="NY">New York</option>
+        <option value="NC">North Carolina</option>
+        <option value="ND">North Dakota</option>
+        <option value="OH">Ohio</option>
+        <option value="OK">Oklahoma</option>
+        <option value="OR">Oregon</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="RI">Rhode Island</option>
+        <option value="SC">South Carolina</option>
+        <option value="SD">South Dakota</option>
+        <option value="TN">Tennessee</option>
+        <option value="TX">Texas</option>
+        <option value="UT">Utah</option>
+        <option value="VT">Vermont</option>
+        <option value="VA">Virginia</option>
+        <option value="WA">Washington</option>
+        <option value="WV">West Virginia</option>
+        <option value="WI">Wisconsin</option>
+        <option value="WY">Wyoming</option>
+      <!-- Zipcode - Text Field -->
+      </select>       
+      <label for="zip">Zipcode</label>
+      <input type="text" placeholder="55555" name="zip" size="6" maxlength="6">
+  </fieldset>
+  <!--Employment Fields-->
+  <fieldset>
+    <!-- "Employment Information" - Fieldset -->
+    <legend>Employment Information</legend>
+      <!-- Occupation - Text Field -->
+      <label for="occupation">Job Title</label>
+      <input type="text" placeholder="Janitor" name="occupation" size="25" maxlength="50"><br>
+      <!-- Employer - Text Field -->
+      <label for="employer">Who is your employer?</label>
+      <input type="text" placeholder="McDonalds" name="employer" size="30" maxlength="50"><br>
+      <!-- Employer Street Address - Text Field -->
+      <label for="street_address">Street Address</label>
+      <input type="text" placeholder="123 Main Street" name="street_address" size="40" maxlength="60">
+      <!-- Employer Street Address - Text Field -->
+      <label for="unit_num">Apt, Unit, etc</label>
+      <input type="text" placeholder="#1" name="unit_num" size="5" maxlength="15">
+      <br>
+      <!-- Employer City - Text Field -->
+      <label for="emp_city">City</label>
+      <input type="text" placeholder="City" name="emp_city" size="20" maxlength="30">
+      <!-- Employer State - Select Box -->
+      <label for="state">State</label>
+      <select name="emp_state">
+        <option value="blank">-----</option>
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+        <option value="DC">District Of Columbia</option>
+        <option value="FL">Florida</option>
+        <option value="GA">Georgia</option>
+        <option value="HI">Hawaii</option>
+        <option value="ID">Idaho</option>
+        <option value="IL">Illinois</option>
+        <option value="IN">Indiana</option>
+        <option value="IA">Iowa</option>
+        <option value="KS">Kansas</option>
+        <option value="KY">Kentucky</option>
+        <option value="LA">Louisiana</option>
+        <option value="ME">Maine</option>
+        <option value="MD">Maryland</option>
+        <option value="MA">Massachusetts</option>
+        <option value="MI">Michigan</option>
+        <option value="MN">Minnesota</option>
+        <option value="MS">Mississippi</option>
+        <option value="MO">Missouri</option>
+        <option value="MT">Montana</option>
+        <option value="NE">Nebraska</option>
+        <option value="NV">Nevada</option>
+        <option value="NH">New Hampshire</option>
+        <option value="NJ">New Jersey</option>
+        <option value="NM">New Mexico</option>
+        <option value="NY">New York</option>
+        <option value="NC">North Carolina</option>
+        <option value="ND">North Dakota</option>
+        <option value="OH">Ohio</option>
+        <option value="OK">Oklahoma</option>
+        <option value="OR">Oregon</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="RI">Rhode Island</option>
+        <option value="SC">South Carolina</option>
+        <option value="SD">South Dakota</option>
+        <option value="TN">Tennessee</option>
+        <option value="TX">Texas</option>
+        <option value="UT">Utah</option>
+        <option value="VT">Vermont</option>
+        <option value="VA">Virginia</option>
+        <option value="WA">Washington</option>
+        <option value="WV">West Virginia</option>
+        <option value="WI">Wisconsin</option>
+        <option value="WY">Wyoming</option>
+      </select>       
+      <!-- Employer Zipcode - Text Field -->
+      <label for="emp_zip">Zipcode</label>
+      <input type="text" placeholder="55555" name="emp_zip" size="6" maxlength="6">
+  </fieldset>
+  <!-- Loan Information - Fieldset -->
+  <fieldset>
+    <legend>Loan Information</legend>
+      <!-- Loan Type - Select Box -->
+      <label for="loan_type">What is the purpose of this loan?</label>
+      <select for="loan_type">
+        <option value="blank">-----</option>
+        <option value="commercial">Commercial</option>
+        <option value="real_estate">Real Estate</option>
+        <option value="personal">Personal</option>
+        <option value="mortgage">Mortgage</option>
+      </select>
+      <br>
+      <!-- Amount of loan - Text Field -->
+      <label for="amount">Desired Loan Amount:</label>
+      <input type="text" placeholder="$$$$$" name="amount" size="10" maxlength="15">
+      <br>
+      <!-- Loan Length - Radio Buttons -->
+      <label for="length">Desired Length of Loan:</label>
+      <input type="radio" name="length" value="5_years">5 Years
+      <input type="radio" name="length" value="10_years">10 Years
+      <input type="radio" name="length" value="15_years">15 Years
+      <br>
+      <!-- Special Conditions - Checkboxes -->
+      <label for="spec_cond">Special Conditions: (Check all that apply)</label>
+      <input type="checkbox" name="spec_cond" value="down_payment">I have a down payment
+      <input type="checkbox" name="spec_cond" value="out_of_state">I live out-of-state
+      <input type="checkbox" name="spec_cond" value="married">I am married
+      <input type="checkbox" name="spec_cond" value="co-signer">I have a co-signer
+      <br>
+      <!-- Comments  - Textarea -->
+      <label for="comments">Additional Comments:</label><br>
+      <textarea name="comments" rows="5" cols="50"></textarea>
+  </fieldset>
+  <!-- Further Information - Fieldset -->
+  <fieldset>
+    <legend>Further Infromation</legend>
+      <!-- Email Address - Text/Email Field -->
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" size="40" maxlength="50"><br>
+      <!-- Telephone - Text/Phone Field -->
+      <label for="tel">Phone Number</label>
+      <input type="tel" id="phone" name="phone" size="15" maxlength="25"><br>
+      <!-- LinkedIn - Text/URL Field -->
+      <label for="url">Link us to your LinkedIn account</label>
+      <input type="url" id="url" name="url" size="25" maxlength="50">
+  </fieldset>
+<!--Submit Button-->
+  <form class="submit">
+  <input type="submit" name="submit" value="Submit">
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </form>
+</body>
+<!--Copyright below-->
+<footer>&copy 2016 Zorbank All Rights Reserved</footer>
+</html>
